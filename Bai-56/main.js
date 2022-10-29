@@ -28,15 +28,15 @@
 // 2. Truyền qua đối số
 // 3. Được gọi lại ( trong hàm nhận đối số)
 
-var courses = [
-    'Javascript',
-    'PHP',
-    'Ruby',
-]
+// var courses = [
+//     'Javascript',
+//     'PHP',
+//     'Ruby',
+// ]
 
-var htmls = courses.map2(function(course) {
-    return `<h2>${course}</h2>`
-})
+// var htmls = courses.map2(function(course) {
+//     return `<h2>${course}</h2>`
+// })
 
-console.log(htmls.join(''))
+// console.log(htmls.join(''))
 
