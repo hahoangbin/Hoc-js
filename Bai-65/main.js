@@ -11,3 +11,8 @@
 
 // Bai 64
 
+// Bai 65
+
+document.write('HELLO GUYS !. ')
+document.write('HELLO GUYS !. ')
+document.write('HELLO GUYS !. ')
