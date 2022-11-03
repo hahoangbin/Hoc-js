@@ -1,5 +1,5 @@
 
-// Bai 72
+// Bai 73
 
 // 1. Element
 // 2. Attribute
@@ -8,8 +8,5 @@
 //  innerHTML, outerHTMLL
 
 var boxElement = document.querySelector('.box')
-
-
-boxElement.outerHTML = '<h1>Heading</h1>'
 
 console.log(boxElement)
