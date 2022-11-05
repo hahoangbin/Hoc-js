@@ -84,8 +84,12 @@ function viec2() {
 }
 
 
-btn.addEventListener('click', viec1)
-btn.addEventListener('click', viec2)
+btn.addEventListener('click', function(e) {
+    console.log('Event 1')
+})
+btn.addEventListener('click', function(e) {
+    console.log('Event 2')
+})
 
 setTimeout(() => {
     btn.removeEventListener('click', viec1)
