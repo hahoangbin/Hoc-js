@@ -1,0 +1,61 @@
+.form {
+    width: 300px;
+    height: 520px;
+    margin: 50px 200px 0;
+    border: 1px solid #333;
+}
+
+.form-control {
+    width: 85%;
+    height: 24px;
+    margin: 2px 16px 0px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    margin-bottom: 16px;
+}
+
+.form-label {
+    height: 24px;
+    width: 250px;
+    color: #333;
+    margin: 4px 16px 0px;
+
+}
+
+.heading {
+    text-align: center;
+    margin: 20px 0 0px;
+}
+
+.desc {
+    text-align: center;
+    margin: 10px 0 16px;
+}
+
+.form-message {
+    margin-left: 16px;
+    font-size: 0.9em;
+}
+
+.form-submit {
+    background-color: aqua;
+    width: 260px;
+    height: 26px;
+    border: 1px solid rgb(141, 140, 140);
+    border-radius: 4px;
+    margin: 18px;
+}
+
+.form-group.horizontal {
+    flex-direction: row;
+
+}
+
+.sex {
+    display: flex;
+    color: #333;
+}
