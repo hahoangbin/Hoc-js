@@ -1,6 +1,6 @@
 .form {
     width: 300px;
-    height: 520px;
+    height: 680px;
     margin: 50px 200px 0;
     border: 1px solid #333;
 }
@@ -55,7 +55,30 @@
 
 }
 
-.sex {
+.sexs {
+    text-align: center;
+    width: 195px;
     display: flex;
     color: #333;
+    font-size: 0.9em;
 }
+
+.form-sex {
+    width: 65px;
+    margin-right: 0;
+
+}
+
+.sex {
+    align-items: center;
+    width: 60px;
+    margin-left: 6px;
+}
+
+.form-check {
+    margin-top: 8px;
+}
+
+.horizontal .form-message {
+    display: none;
+} 
