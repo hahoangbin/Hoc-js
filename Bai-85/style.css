@@ -1,11 +1,12 @@
 .form {
     width: 300px;
-    height: 680px;
+    height: 580px;
     margin: 50px 200px 0;
-    border: 1px solid #333;
+    border: 0.5px solid #333;
 }
 
 .form-control {
+    border: 1px solid rgb(141, 140, 140);
     width: 85%;
     height: 24px;
     margin: 2px 16px 0px;
@@ -14,7 +15,6 @@
 .form-group {
     display: flex;
     flex-direction: column;
-    color: red;
     margin-bottom: 16px;
 }
 
@@ -24,6 +24,14 @@
     color: #333;
     margin: 4px 16px 0px;
 
+}
+
+.invalid  {
+    color: red;
+}
+
+.invalid .form-control {
+    border-color: hsl(0, 100%, 50%);
 }
 
 .heading {
