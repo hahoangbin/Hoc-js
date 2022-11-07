@@ -1,0 +1,92 @@
+.form {
+    width: 300px;
+    height: 580px;
+    margin: 50px 200px 0;
+    border: 0.5px solid #333;
+}
+
+.form-control {
+    border: 1px solid rgb(141, 140, 140);
+    width: 85%;
+    height: 24px;
+    margin: 2px 16px 0px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form-label {
+    height: 24px;
+    width: 250px;
+    color: #333;
+    margin: 4px 16px 0px;
+
+}
+
+.invalid  {
+    color: red;
+}
+
+.invalid .form-control {
+    border-color: hsl(0, 100%, 50%);
+}
+
+.heading {
+    text-align: center;
+    margin: 20px 0 0px;
+}
+
+.desc {
+    text-align: center;
+    margin: 10px 0 16px;
+}
+
+.form-message {
+    margin-left: 16px;
+    font-size: 0.9em;
+}
+
+.form-submit {
+    background-color: aqua;
+    width: 260px;
+    height: 26px;
+    border: 1px solid rgb(141, 140, 140);
+    border-radius: 4px;
+    margin: 18px;
+}
+
+.form-group.horizontal {
+    flex-direction: row;
+
+}
+
+.sexs {
+    text-align: center;
+    width: 195px;
+    display: flex;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.form-sex {
+    width: 65px;
+    margin-right: 0;
+
+}
+
+.sex {
+    align-items: center;
+    width: 60px;
+    margin-left: 6px;
+}
+
+.form-check {
+    margin-top: 8px;
+}
+
+.horizontal .form-message {
+    display: none;
+} 
