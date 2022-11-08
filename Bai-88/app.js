@@ -15,9 +15,24 @@
     10. Mistakes
     11. Performance
 */
-// JSON Là một định dạng giữ liệu (chuỗi) JavaScript Object Notation
-// JSON: Thể hiện dữ liệu dạng number, boolean, null, object, array
 
-// thao tác chuyển đổi
-// Stringify / Parse
-// mã hoá <=> giải mã (hai chiều)
+
+// callBack hell
+setTimeout(function() {
+    console.log(1)
+    setTimeout(function() {
+        console.log(2)
+        setTimeout(function() {
+            console.log(3)
+            setTimeout(function() {
+                console.log(4)
+                setTimeout(function() {
+                    console.log(5)
+                    setTimeout(function() {
+                        console.log(6)
+                    }, 1000)
+                }, 1000)
+            }, 1000)
+        }, 1000)
+    }, 1000)
+}, 1000)
