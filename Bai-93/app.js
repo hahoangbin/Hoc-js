@@ -100,7 +100,7 @@
     8. Rest parameter
     9. Spread
     10. Enhanced object literals
-    11. Tagged template literal
-    12. Modules
+    11. Tagged template litera
+    12.
 */
     
