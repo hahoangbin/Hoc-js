@@ -101,6 +101,6 @@
     9. Spread
     10. Enhanced object literals
     11. Tagged template litera
-    12.
+    12. Modules
 */
     
