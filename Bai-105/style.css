@@ -15,6 +15,7 @@ body > div {
     position: fixed;
     top: 32px;
     right: 32px;
+    z-index: 1999;
 }
 
 .toast {
@@ -27,7 +28,7 @@ body > div {
     border-radius: 2px;
     border-left: 4px solid;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
-    animation: slideInleft ease .3s, fadeOut linear 1s 3s forwards
+    transition: all linear 0.3s;
 }
 
 @keyframes slideInleft {
@@ -135,6 +136,10 @@ flex-grow: 1;
 }
 
 .btn--dander {
-    background-color: rgb(214, 25, 25);
+    background-color: rgb(252, 53, 53);
 
+}
+
+.btn:hover {
+    opacity: 0.75;
 }
